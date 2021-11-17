@@ -1,4 +1,15 @@
-body {
-  background-color: teal;
-  color: tomato;
-}
+@import './utils/variables';
+@import './base/common';
+@import './layout/header';
+@import './layout/hero';
+@import './layout/features';
+@import './layout/our-works';
+@import './layout/our-team';
+@import './layout/our-clients';
+@import './layout/footer';
+@import './layout/portfolio-buttons';
+@import './layout/portfolio-cards';
+
+@import './components/logo-web-part';
+@import './components/logo-main';
+@import './components/logo-footer';

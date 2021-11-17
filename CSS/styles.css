@@ -8,7 +8,7 @@
 
 /* Logo specific color #2196F3 */
 
-:root {
+/* :root {
   --main-text-color: #212121;
   --secondary-text-color: #757575;
   --logo-specific-color: #2196f3;
@@ -26,8 +26,8 @@
   --modal-btn: #188ce8;
   --gap: 30px;
   --item: 1;
-}
-body {
+} */
+/* body {
   background-color: var(--background-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -37,15 +37,15 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 /* .section,
 .section.team {
   background-color: #242424;
 } */
-.section {
+/* .section {
   padding: 94px 0;
-}
-.grid {
+} */
+/* .grid {
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(var(--gap) * -1);
@@ -55,8 +55,8 @@ img {
   flex-basis: calc(100% / var(--item) - var(--gap));
   margin-top: auto;
   margin-left: auto;
-}
-
+} */
+/* 
 .list {
   list-style: none;
   padding: 0;
@@ -64,19 +64,19 @@ img {
 }
 .link {
   text-decoration: none;
-}
+} */
 /* Container */
-.container {
+/* .container {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
 /* Logo */
 
-.logo {
+/* .logo {
   font-family: raleway;
   color: var(--logo-black);
   font-weight: 700;
@@ -99,7 +99,7 @@ img {
 }
 .logo-web {
   color: var(--logo-specific-color);
-}
+} */
 /* Header */
 /* .header {
   padding-top: 24px;
@@ -615,7 +615,7 @@ img {
 /* Portfolio.html */
 
 /* Filter buttons */
-.button-portfolio {
+/* .button-portfolio {
   background-color: var(--our-team-bg);
   color: var(--main-text-color);
   font-weight: 500;
@@ -647,11 +647,11 @@ img {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-}
+} */
 
 /* Main section(Portfolio) */
 
-.portfolio-main-section {
+/* .portfolio-main-section {
   margin-bottom: -30px;
   margin-right: -30px;
   display: flex;
@@ -688,7 +688,7 @@ img {
 }
 .port-img-descr {
   padding: 20px 24px;
-}
+} */
 /* Backdrop-modal */
 .backdrop {
   position: fixed;
