@@ -1,0 +1,39 @@
+.works.section {
+  padding-top: 47px;
+}
+
+.section-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.works-section {
+  display: flex;
+}
+
+.works-img:not(:last-child) {
+  margin-right: 30px;
+}
+.works-img {
+  position: relative;
+}
+.works-img-descr {
+  display: flex;
+  position: absolute;
+  margin: 0;
+  color: var(--icon-team-cont-accent);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  height: 70px;
+  width: 100%;
+  background-color: var(--img-descr-overlay);
+  bottom: 0;
+}
