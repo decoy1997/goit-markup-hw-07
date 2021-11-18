@@ -1,4 +1,4 @@
-.overlay {
+.hero-overlay {
   background-color: var(--footer-color);
   max-width: 1600px;
   height: 600px;
@@ -11,7 +11,7 @@
   background-position: center;
   background-size: cover;
 }
-.main-title {
+.hero-overlay__title {
   margin: 0 auto;
   color: var(--background-color);
   font-weight: 900;

@@ -1,8 +1,8 @@
-.works.section {
+.works-section {
   padding-top: 47px;
 }
 
-.section-title {
+.works-section__title {
   margin-top: 0;
   margin-bottom: 50px;
   font-weight: 700;
@@ -11,17 +11,17 @@
   text-align: center;
 }
 
-.works-section {
+.works-section__list {
   display: flex;
 }
 
-.works-img:not(:last-child) {
+.works-section__item:not(:last-child) {
   margin-right: 30px;
 }
-.works-img {
+.works-section__item {
   position: relative;
 }
-.works-img-descr {
+.works-section__descr {
   display: flex;
   position: absolute;
   margin: 0;
