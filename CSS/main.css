@@ -345,7 +345,7 @@ img {
   margin-right: 10px;
 }
 
-.team-socials-link {
+.socials-list__link {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -357,14 +357,14 @@ img {
   transition: color 250ms ease, background-color 250ms ease;
 }
 
-.team-socials-icon {
+.socials-list__icons {
   width: 20px;
   height: 20px;
   fill: currentColor;
 }
 
-.team-socials-link:hover,
-.team-socials-link:focus {
+.socials-list__link:hover,
+.socials-list__link:focus {
   background-color: var(--logo-specific-color);
   color: var(--icon-team-cont-accent);
 }
