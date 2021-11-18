@@ -19,10 +19,11 @@
 .clients-item {
   width: 170px;
   height: 92px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
-.clients-item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .clients-item-link {
   border: 1px solid var(--icon-team-cont);
   width: 100%;
@@ -33,6 +34,17 @@
   align-items: center;
   color: var(--icon-team-cont);
   transition: border-color 250ms ease;
+  &:hover,
+  &:focus {
+    border-color: var(--logo-specific-color);
+  }
+  &:hover,
+  &:focus {
+    .icon-team-com {
+      border-color: var(--logo-specific-color);
+      fill: var(--logo-specific-color);
+    }
+  }
 }
 
 .icon-team-com {
@@ -40,13 +52,4 @@
   height: 60px;
   fill: var(--icon-team-cont);
   transition: border-color 250ms ease, fill 250ms ease;
-}
-.clients-item-link:hover,
-.clients-item-link:focus {
-  border-color: var(--logo-specific-color);
-}
-.clients-item-link:hover .icon-team-com,
-.clients-item-link:focus .icon-team-com {
-  border-color: var(--logo-specific-color);
-  fill: var(--logo-specific-color);
 }
